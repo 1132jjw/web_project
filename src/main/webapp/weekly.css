@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@media (prefers-color-scheme: dark) {
+	 .calendar {
+	 	background-color: rgb(47, 47, 47);
+	 	color: white;
+		display: grid;
+		grid-template-columns: repeat(4, minmax(150px, auto));
+	}  	
+}
+
+@media (prefers-color-scheme: light) {
+	 .calendar {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(150px, auto));
+	}
+}
+
+.chart {
+	display:block;
+	width: 200px;
+	height:auto;
+}
+
+.checkForm {
+	display: inline;
+}
+
+.describe {
+	display: inline;
+	cursor: pointer;
+}
+	
+.day {
+	height: 350px;
+	border-style: solid;
+	border-width: 1px;
+	display: grid;
+	grid-template-rows: 300px 50px;
+}
+
+.todo {
+	height: 350px;
+	border-style: solid;
+	border-width: 1px;
+	display: grid;
+	grid-template-rows: 300px 50px;
+}
+
+.todo-list {
+	height: 200px;
+	overflow: auto;
+}
+
+.bi-plus-square {
+	display: flex;
+	cursor: pointer;
+	align-items: flex-end;
+	margin: 5px;
+}
+
+.mon {
+	color: red;
+}
+
+.tue {
+	color: orange;
+}
+
+.wed {
+	color: #F5F500;
+}
+
+.thu {
+	color: green;
+}
+
+.fri {
+	color: blue;
+}
+
+.sat {
+	color: navy;
+}
+
+.sun {
+	color: purple;
+}
+
+.todo {
+	color: #808080;
+}  	
